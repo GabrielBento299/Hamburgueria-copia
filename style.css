@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25empx;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .links li {
+      display: inline;
+  
+  }
+  
+  .outro p {
+    font-size: 25px;
+    padding: 15px;
+    display: inline;
+  }
+  header {
+    background-color: red;
+    padding: 35px;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 1.25em; 
+    
+  }
+  
+  .h2 {
+    color:red;
+      font-size: 3.55em; 
+      font-family: 'MonteCarlo', cursive;
+      
+  }
+  
+  .sobre {
+      padding:150px;
+      background-image: url(bur.jpg);
+      background-color: blanchedalmond;
+  
+  }
+  
+  .links-outro a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 2.25em; 
+    color: red;
+    padding: 35px;
+    font-family: 'Palette Mosaic', cursive;    }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lanches {
+    background-color: gold;
+    text-align: center;
+    background-image: url(http://burgerlamafia.com.br/wp-content/uploads/2017/10/bg_06.jpg);
+}
+
+  .fotos {
+    height: 150px;
+    align-items: center;
+  
+  }
+  
+  .fonte {
+    color: white;
+    font-size: 25px;
+  }
+  
+  .textos {
+    color: rgb(230, 214, 193);
+    font-size: 25px;
+  }
+  
+  .dolar{
+    color: goldenrod;
+    font-size: 30px;
+  }
+
+  ul {
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .tel {
+    color: #f3a531;
+    float: right;
+    margin-right: 35px;
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+  }
+
+
+  .social-media {
+    position: absolute;
+    top:4%;
+    left:35%;
+    margin-left:950px;
+  
+  }
+
+  .btn {
+    color: rgb(24, 97, 9);
+    background-color: palegoldenrod;
+    border: 5px solid palegoldenrod;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s ;
+
+  }
+
+  .btn:hover{
+    transition: 1.5s ease-in-out;
+    background-color: red;
+    color: rgb(208, 255, 0);
+    border: 5px solid red;
+  }
